@@ -347,18 +347,6 @@ public class DataStructureBenchmarkReport
 		sb.AppendLine($"Iterations per operation: {Iterations}");
 		sb.AppendLine($"Missing value searched: {MissingValue}");
 		sb.AppendLine();
-		sb.AppendLine("Statistics:");
-		sb.AppendLine("- Mean: average elapsed ticks across 1000 runs");
-		sb.AppendLine("- Std Dev: standard deviation of elapsed ticks across 1000 runs");
-		sb.AppendLine("- Min/Max: minimum and maximum elapsed ticks observed");
-		sb.AppendLine("- Example Interpretation:");
-		sb.AppendLine("\t- A: mean = 500, std-dev = 20");
-		sb.AppendLine("\t- B: mean = 700, std-dev = 25");
-		sb.AppendLine("\t- → Clear difference");
-		sb.AppendLine("\t- A: mean = 500, std-dev = 150");
-		sb.AppendLine("\t- B: mean = 600, std-dev = 160");
-		sb.AppendLine("\t- → Likely indistinguishable");
-		sb.AppendLine();
 
 		sb.AppendLine(
 			Pad("Structure", 15) +

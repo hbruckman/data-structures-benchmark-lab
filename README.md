@@ -38,7 +38,7 @@ Each insertion allocates a node and updates references. So:
 - poor cache usage
 - pointer-based structure
 
-Key teaching point:
+Key learning point:
 
 - Even though both operations are O(1), O(1) for LinkedList.AddLast hides large constant factors.
 
