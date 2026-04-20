@@ -14,7 +14,7 @@ Benchmarking of several data structures for teaching purposes.
 		sb.AppendLine();
 
 
-# Why List is fastest for “Add all values”
+# Why ArrayList (List) is fastest for “Add all values”
 
 Interpretation:
 
@@ -28,7 +28,7 @@ Key learning point:
 
 - Memory locality beats theoretical disadvantages.
 
-# Why LinkedList is slower
+# Why DoublyLinkedList (LinkedList) is slower
 
 Interpretation:
 
@@ -42,7 +42,7 @@ Key teaching point:
 
 - Even though both operations are O(1), O(1) for LinkedList.AddLast hides large constant factors.
 
-# Why Hashtable is slowest to build
+# Why HashTable (Dictionary) is slowest to build
 
 Interpretation:
 
